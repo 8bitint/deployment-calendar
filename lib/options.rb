@@ -11,7 +11,7 @@ class Options  # No need for any complexity here...
 	end
 
 	def print_usage
-		print "Usage: generate-release-calendar.rb <VERSION> [start date]\n"
+		print "Usage: gen-deployment-calendar.rb <VERSION> [start date]\n"
 		exit 1
 	end
 
