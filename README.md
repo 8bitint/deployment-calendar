@@ -8,7 +8,7 @@ rake
 ```
 
 ## Usage
-`./bin/generate-deployment-calendar.rb <VERSION> [start date]`
+`./bin/gen-deployment-calendar.rb <VERSION> [start date]`
 
 Where `<VERSION>` is a mandatory parameter specifying the version being released. This is used to name the output file, mapping `.` to `_` such that version `2.11.3` would create a file named `2_11_3.md`.
 
